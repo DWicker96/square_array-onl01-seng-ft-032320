@@ -1,3 +1,6 @@
 def square_array(array)
-array.each {|item| puts “squaring {item ** 2} is hard at first”}
+  square_arr = []
+  array.each do |square|
+  square_arr << square**2
 end
+
