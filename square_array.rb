@@ -1,3 +1,3 @@
 def square_array(array)
-array.each {|array| puts " squaring {array}**2 is hard to do at first" }
+array.each {|array| puts  {array}**2 }
 end
