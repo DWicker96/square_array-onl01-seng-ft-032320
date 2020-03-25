@@ -1,6 +1,6 @@
 def square_array(array)
-wins = [1, 2, 3]
-wins.each do |win|
-  puts "Every win doubles as you get better #{wins + 1}"
+poker_chips = [ "chips 1" ,"chip 2", "chip 3"]
+poker_chips.each do |chip|
+  puts "Every hand one, you get more chips #{poker_chips + 1}"
   end
 end
